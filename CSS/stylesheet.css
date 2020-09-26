@@ -1,4 +1,44 @@
 body {
     background-image: url(../Pictures/moon-background.jpg);
+    background-size: cover;
+}
+
+#nav {
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    background-color: rgb(19, 38, 63);
+    width: 100%;
+    margin: 0 auto;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     text-align: center;
+}
+
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+#main {
+    color: silver;
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    margin-top: 80px;
 }
