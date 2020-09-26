@@ -42,3 +42,17 @@ header h1 {
     display: inline-block;
     margin-top: 80px;
 }
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+section address {
+    display: block;
+    font-style: normal;
+}
+
+address a {
+    display: block;
+}
