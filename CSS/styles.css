@@ -6,17 +6,22 @@
 }
 
 body {
+    background-color: darkslateblue;
     margin: 0;
     padding: 0;
 }
 
+.container {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
 /* Making header with typewriter animation */
 #typewriter-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 3.5rem;
+    border-right: solid black 2px;
 }
