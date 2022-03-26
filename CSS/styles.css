@@ -12,15 +12,11 @@ body {
 
 
 /* Making header with typewriter animation */
-#header {
+#typewriter-text {
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    border-right: .15em solid blue;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation:
-        typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
+    align-items: center;
+    padding-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3.5rem;
 }
