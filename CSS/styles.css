@@ -25,3 +25,19 @@ body {
     font-size: 3.5rem;
     border-right: solid white 2px;
 }
+
+/* Making twinkling star animation */
+
+#banner {
+    position: relative;
+    margin: 8px;
+    width: 800px;
+    height: 600px;
+}
+
+canvas {
+    background: #0c1445;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
