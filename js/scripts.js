@@ -8,7 +8,7 @@ toggleButton.addEventListener('click', () => {
 
 // Variables for typewriter animation
 const textDisplay = document.getElementById('typewriter-text')
-const phrases = ['Hello!', 'Hi!', 'Help?'];
+const phrases = ['Hello!', 'Hi!', 'Hey!'];
 let i = 0;
 let j = 0;
 let currentPhrase = [];
