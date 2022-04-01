@@ -26,3 +26,19 @@ body {
     font-size: 3.5rem;
     border-right: solid white 2px;
 }
+
+/* Creating styles for main id tag */
+
+.box1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #a7c8b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+}
