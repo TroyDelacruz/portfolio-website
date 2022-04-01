@@ -9,7 +9,6 @@ body {
     background-color: darkslateblue;
     margin: 0;
     padding: 0;
-    background: #0c1445;
 }
 
 .container {
@@ -29,13 +28,24 @@ body {
 
 /* Creating styles for main id tag */
 
+#main {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+}
+
 .box1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    margin-right: 20px;
+    margin-right: 100px;
     background-color: #a7c8b8;
     box-sizing: border-box;
     border-radius: 4px;
