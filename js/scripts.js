@@ -73,3 +73,6 @@ function time() {
 setInterval(time, 1000);
 
 time();
+
+/* Creating modal functionality for image gallery */
+

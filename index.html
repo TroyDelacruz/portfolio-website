@@ -13,6 +13,8 @@
   </head>
   <body>
 
+    <!-- Navigation bar section -->
+
     <nav class="navbar">
       <div class="brand-title">troy/delacruz</div>
       <a href="#" class="toggle-button">
@@ -24,11 +26,12 @@
       <div class="navbar-links">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
+
+    <!-- Typewriter text section -->
 
     <div class="container">
 
@@ -36,6 +39,8 @@
 
     </div>
 
+    <!-- Image gallery with modal functionality-->
+  
     <div id="image-gallery">
 
         <img src="/images/profile-icon.png" alt="profile-image" class="image">
@@ -43,7 +48,16 @@
         <img src="/images/pawprints.png" alt="animals-image" class="image">
 
         <img src="/images/computer-image.png" alt="hobbies-image" class="image">
-      </div>
+
+    </div>
+
+    <h1>Click to see!</h1>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2>I am a modal window!</h2>
+      <p>Blah blah blaaaaah!</p>
+      <div class="overlay hidden"></div>
     </div>
 
     <script src="/js/scripts.js"></script>
