@@ -43,19 +43,33 @@
   
     <div id="image-gallery">
 
-        <img src="/images/profile-icon.png" alt="profile-image" class="image">
+        <img src="/images/profile-icon.png" alt="profile-image" class="image" data-modal="bio">
 
-        <img src="/images/pawprints.png" alt="animals-image" class="image">
+        <img src="/images/pawprints.png" alt="animals-image" class="image" data-modal="pets">
 
-        <img src="/images/computer-image.png" alt="hobbies-image" class="image">
+        <img src="/images/computer-image.png" alt="hobbies-image" class="image" data-modal="hobbies">
 
     </div>
 
     <h1>Click to see!</h1>
 
-    <div class="modal hidden">
+    <div class="modal hidden" id="bio">
       <button class="close-modal">&times;</button>
-      <h2>I am a modal window!</h2>
+      <h2>The one and only: Troy Delacruz! (& my squirrelfriend!)</h2>
+      <p>Blah blah blaaaaah!</p>
+      <div class="overlay hidden"></div>
+    </div>
+
+    <div class="modal hidden" id="pets">
+      <button class="close-modal">&times;</button>
+      <h2>My two lil' kitties!</h2>
+      <p>Blah blah blaaaaah!</p>
+      <div class="overlay hidden"></div>
+    </div>
+
+    <div class="modal hidden" id="hobbies">
+      <button class="close-modal">&times;</button>
+      <h2>Some of my interests~</h2>
       <p>Blah blah blaaaaah!</p>
       <div class="overlay hidden"></div>
     </div>

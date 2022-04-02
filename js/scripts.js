@@ -78,23 +78,8 @@ time();
 
 /* Creating modal functionality for image gallery */
 
-const modal = document.querySelector('.modal');
-const overlay = document.querySelector('.overlay');
-const btnCloseModal = document.querySelector('.close-modal');
+const modals = document.querySelectorAll('.modal');
+const overlays = document.querySelectorAll('.overlay');
+const btnCloseModal = document.querySelectorAll('.close-modal');
 const btnOpenImage = document.querySelectorAll('img');
 
-const openModal = function () {
-  modal.classList.remove('hidden');
-  overlay.classList.remove('hidden');
-}
-
-const closeModal = function () {
-  modal.classList.add('hidden');
-  overlay.classList.add('hidden');
-}
-
-for (let i = 0; i < btnOpenImage.length; i++)
-  btnOpenImage[i].addEventListener('click', openModal);
-
-btnCloseModal.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
