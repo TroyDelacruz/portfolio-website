@@ -82,6 +82,7 @@ const imageButtons = document.querySelectorAll('img');
 const modals = document.querySelectorAll('.modal');
 const imageButtonsClose = document.querySelectorAll('.close-modal');
 
+
 imageButtons[0].onclick = function() {
   modals[0].style.display = "block";
 };
