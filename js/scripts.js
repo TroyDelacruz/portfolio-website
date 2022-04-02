@@ -78,8 +78,36 @@ time();
 
 /* Creating modal functionality for image gallery */
 
+const imageButtons = document.querySelectorAll('img');
 const modals = document.querySelectorAll('.modal');
-const overlays = document.querySelectorAll('.overlay');
-const btnCloseModal = document.querySelectorAll('.close-modal');
-const btnOpenImage = document.querySelectorAll('img');
+const imageButtonsClose = document.querySelectorAll('.close-modal');
 
+imageButtons[0].onclick = function() {
+  modals[0].style.display = "block";
+}
+
+imageButtons[1].onclick = function() {
+  modals[1].style.display = "block";
+}
+
+imageButtons[2].onclick = function() {
+  modals[2].style.display = "block";
+}
+
+imageButtonsClose[0].onclick = function() {
+  modals[0].style.display = "none";
+}
+
+imageButtonsClose[1].onclick = function() {
+  modals[1].style.display = "none";
+}
+
+imageButtonsClose[2].onclick = function() {
+  modals[2].style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modals){
+    modals.style.display = "none";
+  }
+}
