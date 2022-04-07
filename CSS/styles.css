@@ -6,6 +6,7 @@
 }
 
 body {
+    font-family: 'Titillium Web', sans-serif;
     background-color: darkslateblue;
     margin: 0;
     padding: 0;
@@ -21,7 +22,6 @@ body {
 }
 
 h1 {
-    font-family: 'Titillium Web', sans-serif;
     text-align: center;
     color: white;
     margin-top: 8%;
