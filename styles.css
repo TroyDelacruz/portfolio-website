@@ -1,0 +1,113 @@
+@import url(/css/navbar.css);
+@import url(/css/animations.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    line-height: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 8%;
+}
+
+/* Making header with typewriter animation */
+#typewriter-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3.5rem;
+    border-right: solid white 2px;
+    margin-top: 1rem;
+}
+
+
+/* Image gallery styling */
+
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin-top: 10rem;
+    box-sizing: border-box;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.image2 {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: 5rem;
+    box-sizing: border-box;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.image3 {
+    display: inline-block;
+    height: 15rem;
+    width: 15rem;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+/* Modal section styling */
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 143, 139, 0.6);
+    z-index: 5;
+  }
