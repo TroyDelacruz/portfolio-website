@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../portfolio-website/css/styles.css" />
+    <script src="../portfolio-website/js/scripts.js" defer></script>
     <title>Troy's Portfolio!</title>
   </head>
   <body>
-
     <!-- Navigation bar section -->
 
     <nav class="navbar">
@@ -26,7 +32,8 @@
 
       <div class="navbar-links">
         <div class="projects">
-          <button class="dropbtn">Projects
+          <button class="dropbtn">
+            Projects
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="projects-content">
@@ -42,70 +49,106 @@
     <!-- Typewriter text section -->
 
     <div class="container">
-
       <div id="typewriter-text"></div>
-
     </div>
 
     <!-- Image gallery with modal functionality-->
-  
+
     <div class="image-gallery">
+      <img
+        src="../portfolio-website/images/profile-icon.png"
+        alt="profile-image"
+        class="image"
+        data-modal="bio"
+      />
 
-        <img src="/images/profile-icon.png" alt="profile-image" class="image" data-modal="bio">
+      <img
+        src="../portfolio-website/images/pawprints.png"
+        alt="animals-image"
+        class="image"
+        data-modal="pets"
+      />
 
-        <img src="/images/pawprints.png" alt="animals-image" class="image" data-modal="pets">
-
-        <img src="/images/computer-image.png" alt="hobbies-image" class="image" data-modal="hobbies">
-
+      <img
+        src="../portfolio-website/images/computer-image.png"
+        alt="hobbies-image"
+        class="image"
+        data-modal="hobbies"
+      />
     </div>
 
     <h1>Click to see!</h1>
 
     <div class="modal hidden" id="bio">
       <button class="close-modal">&times;</button>
-      <h2>The one and only: Troy Delacruz! (& my squirrel friend!)</h2>
-      <p>I started programming two years ago but it's been split and pieced together through several heartaches and issues.<br>
-      Only now have I actually have some form of determination with the help of my lovely fiance, who has<br> been there for
-      me through thick and thin. Best three years of my life and still counting!</p>
-      <img src="/images/me-and-love.png" alt="Troy & Sora" class="image3">
+      <h2>The one and only: Troy Delacruz!</h2>
+      <p>
+        I started programming two years ago but it's been split and pieced
+        together through several heartaches and issues.<br />
+        I have the lovely support of friends and family which, while small, is
+        <br />
+        the greatest influence I could ever ask for!
+      </p>
+
       <div class="overlay hidden"></div>
     </div>
 
     <div class="modal hidden" id="pets">
       <button class="close-modal">&times;</button>
       <h2>My two lil' kitties!</h2>
-      <p>I also have a rabbit and a ringneck parrot, whom are definitely superstars! But my kitties (Gumball & Katniss)<br>
-      are seriously my pride and joy. Gotta love those paw pads! &#128571;</p>
-      <img src="/images/gumball.png" alt="Gummycat=image" class="image3">
-      <img src="/images/katniss.png" alt="katniss-image" class="image3">
+      <p>
+        I also have a rabbit, but my kit kat of pride and chonk is Gumball!<br />
+        He's seriously my pride and joy. Gotta love those paw pads! &#128571;
+      </p>
+      <img
+        src="../portfolio-website/images/gumball.png"
+        alt="Gummycat=image"
+        class="image3"
+      />
       <div class="overlay hidden"></div>
     </div>
 
     <div class="modal hidden" id="hobbies">
       <button class="close-modal">&times;</button>
       <h2>Some of my interests~</h2>
-      <p>I used to be a writer before I got horrendous writer's block that's persistent to this very day.<br>
-      I love love love to walk and bake tasty treats as well as play some rockin' RPG games.<br>
-      Learning in general though is both a passion and a hobby for me, which is why my brain never shuts down!</p>
-      <img src="/images/horns.png" alt="horns-image" class="image3">
+      <p>
+        I used to be a writer before I got horrendous writer's block that's
+        persistent to this very day.<br />
+        I love love love to walk and bake tasty treats as well as play some
+        rockin' RPG games.<br />
+        Learning in general though is both a passion and a hobby for me, which
+        is why my brain never shuts down!
+      </p>
+      <img
+        src="../portfolio-website/images/horns.png"
+        alt="horns-image"
+        class="image3"
+      />
       <div class="overlay hidden"></div>
     </div>
 
-
-  <!-- Footer content -->    
+    <!-- Footer content -->
     <footer id="footer">
       <nav>
         <div class="navbar-links">
-          
           <ul class="image-gallery">
-            <a href="https://www.linkedin.com/in/troy-delacruz/"><img src="/images/LI-In-Bug.png" alt="LinkedIn" class="image2" target="_blank"></a>
-            <a href="https://github.com/TroyDelacruz"><img src="/images/GitHub-Mark-32px.png" alt="GitHub" class="image2" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/troy-delacruz/"
+              ><img
+                src="../portfolio-website/images/LI-In-Bug.png"
+                alt="LinkedIn"
+                class="image2"
+                target="_blank"
+            /></a>
+            <a href="https://github.com/TroyDelacruz"
+              ><img
+                src="../portfolio-website/images/GitHub-Mark-32px.png"
+                alt="GitHub"
+                class="image2"
+                target="_blank"
+            /></a>
           </ul>
-
         </div>
       </nav>
     </footer>
-
-    <script src="/js/scripts.js"></script>
   </body>
 </html>
